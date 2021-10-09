@@ -8,8 +8,8 @@ package com.bridgelabz.java.regularexpression;
 
 public class UC1EnterFirstName {   
 	public static void main(String[] args) {
-		System.out.println("Navya");
-		System.out.println("Anokhi");
+		System.out.println(firstName("Navya"));
+		System.out.println(firstName("Anokhi"));
 	}
 	//validate first name
 	public static boolean firstName(String FirstName )  {
